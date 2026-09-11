@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\web\\adventureworks\\backend\\Adventureworks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|h:\\web\\adventureworks\\backend\\adventureworks\\adventureworks\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|solutionrelative:adventureworks\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|h:\\web\\adventureworks\\backend\\adventureworks\\adventureworks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|solutionrelative:adventureworks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|h:\\web\\adventureworks\\backend\\adventureworks\\adventureworks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|solutionrelative:adventureworks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|h:\\web\\adventureworks\\backend\\adventureworks\\adventureworks\\models\\adventureworkscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86190AC-9228-33C1-9852-4AA8E75D97B3}|Adventureworks\\Adventureworks.csproj|solutionrelative:adventureworks\\models\\adventureworkscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Adventureworks\\Controllers\\AuthController.cs",
+              "ToolTip": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Adventureworks\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAIwHUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T04:42:47.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\appsettings.json",
+              "RelativeDocumentMoniker": "Adventureworks\\appsettings.json",
+              "ToolTip": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\appsettings.json",
+              "RelativeToolTip": "Adventureworks\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-11T03:59:43.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdventureWorksContext.cs",
+              "DocumentMoniker": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\Models\\AdventureWorksContext.cs",
+              "RelativeDocumentMoniker": "Adventureworks\\Models\\AdventureWorksContext.cs",
+              "ToolTip": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\Models\\AdventureWorksContext.cs",
+              "RelativeToolTip": "Adventureworks\\Models\\AdventureWorksContext.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAACsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T03:55:50.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\Program.cs",
+              "RelativeDocumentMoniker": "Adventureworks\\Program.cs",
+              "ToolTip": "H:\\web\\adventureworks\\backend\\Adventureworks\\Adventureworks\\Program.cs",
+              "RelativeToolTip": "Adventureworks\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T03:16:33.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
