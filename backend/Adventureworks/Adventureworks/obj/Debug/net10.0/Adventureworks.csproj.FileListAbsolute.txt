@@ -169,3 +169,4 @@ H:\web\adventureworks\backend\Adventureworks\Adventureworks\obj\Debug\net10.0\re
 H:\web\adventureworks\backend\Adventureworks\Adventureworks\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 H:\web\adventureworks\backend\Adventureworks\Adventureworks\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 H:\web\adventureworks\backend\Adventureworks\Adventureworks\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\web\adventureworks\backend\Adventureworks\Adventureworks\obj\Debug\net10.0\Adventureworks.sourcelink.json
