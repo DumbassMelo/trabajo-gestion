@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../services/api';
 
 const Login = () => {
     const [formData, setFormData] = useState({
@@ -17,7 +17,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://localhost:7285/api/Auth/login', formData);
+            const response = await api.post('/Auth/login', formData);
             
             // 1. Guardar el token en el LocalStorage
             localStorage.setItem('token', response.data.token);

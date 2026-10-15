@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../services/api';
 import Navbar from '../components/Navbar';
 
 const ProductDetail = () => {
@@ -10,8 +10,7 @@ const ProductDetail = () => {
     useEffect(() => {
         const fetchProductDetail = async () => {
             try {
-                // Ajusta el puerto si es necesario
-                const response = await axios.get(`https://localhost:7285/api/products/${id}`);
+                const response = await api.get(`/products/${id}`);
                 setProduct(response.data);
             } catch (error) {
                 console.error("Error cargando el detalle", error);

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../services/api';
 
 const Register = () => {
     const [formData, setFormData] = useState({
@@ -20,8 +20,7 @@ const Register = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            // Cambia el puerto por el que usa tu API de ASP.NET Core
-            await axios.post('https://localhost:7285/api/Auth/register', formData);
+            await api.post('/Auth/register', formData);
             alert('Registro exitoso. Ahora puedes iniciar sesión.');
             navigate('/login'); // Redirige al login tras el éxito
         } catch (err) {

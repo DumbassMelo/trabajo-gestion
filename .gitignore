@@ -1,0 +1,41 @@
+﻿# ==========================================
+# Archivos y carpetas ignorados por Git
+# ==========================================
+
+# --- Node / Frontend ---
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# --- .NET & Visual Studio ---
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+*.pdb
+*.dll
+*.exe
+
+# --- Editores y Sistema Operativo ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

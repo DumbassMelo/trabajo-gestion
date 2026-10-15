@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../services/api';
 import Navbar from '../components/Navbar';
 
 const Home = () => {
@@ -9,8 +9,7 @@ const Home = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                // Ajusta el puerto si es necesario
-                const response = await axios.get('https://localhost:7285/api/products');
+                const response = await api.get('/products');
                 setProducts(response.data);
             } catch (error) {
                 console.error("Error cargando productos", error);
