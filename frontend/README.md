@@ -2,16 +2,16 @@
 
 Aplicación frontend desarrollada con **React 19**, **Vite** y **React Router 7**, conectada a la API de AdventureWorks.
 
-## 📦 Instalación
+## Instalación
 
-`ash
+`Bash
 npm install
 `
 
-## 🛠️ Desarrollo
+## Desarrollo
 
 Para levantar el servidor de desarrollo local:
-`ash
+`Bash
 npm run dev
 `
 La aplicación abrirá por defecto en http://localhost:5173.
@@ -26,7 +26,7 @@ VITE_API_URL=https://localhost:7285/api
 
 Si no se define, se utilizará https://localhost:7285/api automáticamente.
 
-## 🚀 Scripts Disponibles
+##  Scripts Disponibles
 
 - 
 pm run dev: Inicia el servidor de desarrollo Vite con Hot Module Replacement (HMR).
