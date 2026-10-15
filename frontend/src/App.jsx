@@ -1,27 +1,25 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { CartProvider } from './context/CartContext';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home';
-import ProductDetail from './pages/ProductDetail'; // <-- Importa el nuevo componente
+import ProductDetail from './pages/ProductDetail';
+import Cart from './pages/Cart';
 import ProtectedRoute from './components/ProtectedRoute';
-
-// Componente rápido para simular la vista principal protegida
-
 
 function App() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
-
-                {/* Catálogo Protegido */}
-                <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
-                
-                {/* Detalle del Producto Protegido */}
-                <Route path="/product/:id" element={<ProtectedRoute><ProductDetail /></ProtectedRoute>} />
-            </Routes>
-        </BrowserRouter>
+        <CartProvider>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/register" element={<Register />} />
+                    <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
+                    <Route path="/product/:id" element={<ProtectedRoute><ProductDetail /></ProtectedRoute>} />
+                    <Route path="/cart" element={<ProtectedRoute><Cart /></ProtectedRoute>} />
+                </Routes>
+            </BrowserRouter>
+        </CartProvider>
     );
 }
 
